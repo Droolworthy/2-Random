@@ -19,7 +19,7 @@ namespace CS11
 
             for (int i = 0; i < number; i++)
             {
-                if (i % divisibleNumber1 == 0 || i % divisibleNumber2 == 0 )
+                if (i % divisibleNumber1 == 0 || i % divisibleNumber2 == 0)
                 {
                      sum = sum + i;
                 }
