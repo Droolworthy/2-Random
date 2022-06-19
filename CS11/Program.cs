@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CS11
 {
@@ -6,17 +6,15 @@ namespace CS11
     {
         static void Main(string[] args)
         {
-            int multipleThree = 3;
-            int multipleFive = 5;
+            int divisibleNumber1 = 3;
+            int divisibleNumber2 = 5;
             int number;
             Random random = new Random();
 
-            while (true)
+            for(number = 0; number < 1; number++)
             {
-                number = random.Next(1, 101);
-                number /= multipleThree | multipleFive;
-                Console.WriteLine(number);
-                Console.ReadKey();
+                number /= divisibleNumber1 | divisibleNumber2;
+                Console.WriteLine(random.Next(0,101));
             }
         }
     }
